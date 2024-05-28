@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background-color: #ff6f61;
+    padding-bottom: 70px;
+}
+
+.container form{
+  padding: 20px;
+  width: 700px;
+  background: #fff;
+}
+
+.imgs{
+    display: flex;
+}
+
+.imgs img {
+  height:30px;
+  background:#fff;
+  margin:10px 5px;
+  border:1px solid #000;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.imgs img:hover{
+ background: #c5c5c5;
+ transition: 0.2s ease;
+}
+
+.container form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container form .row .col{
+    flex: 1 1 250px;
+}
+
+.container form .row .col .title{
+    font-size: 20px;
+    color: #333;
+    padding-bottom:5px;
+    text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+    margin: 15px 0;
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;  
+}
+
+.container form .row .col .inputBox input,
+.container form .row .col .inputBox select{
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.container form button,
+.container form a{
+  width: 50%;
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  background: #ff6f61;
+}
+
+.container form button:hover,
+.container form a:hover{
+    transition: 0.2s ease-in-out;
+    background: #fff;
+    color: #ff6f61;
+}
